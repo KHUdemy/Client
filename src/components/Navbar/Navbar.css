@@ -1,0 +1,27 @@
+.navbar-header {
+  padding-inline: 2rem;
+  border-bottom: 1px solid #ccc;
+  height: 70px;
+  position: relative;
+  /*max-height: 50px;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+  color:#9d2235;
+}
+.navbar-w{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.navbar-w-logo{
+  height: 70px;
+  object-fit: contain;
+}
+.navbar-to-kanban{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}

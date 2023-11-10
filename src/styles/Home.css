@@ -1,0 +1,65 @@
+.home{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.home-wrap{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px 0px 0px;
+    overflow: hidden;
+}
+.isSide-btn-close{
+    z-index: 100;
+    position: absolute;
+    top: 10px;
+    left: 305px;
+    width: 50px;
+    height: 44px;
+}
+.isSide-btn-open{
+    z-index: 100;
+    position: absolute;
+    top: 10px;
+    width: 50px;
+    left: 10px;
+    height: 44px;
+}
+.navbar-to-kanban{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+/*.card-wrap{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    !*justify-content: space-around;*!*/
+/*}*/
+/*.card-wrap a{*/
+/*    text-decoration: none;*/
+/*}*/
+/*.card{*/
+/*    margin: auto 20px 20px auto;*/
+/*    width: 20vw;*/
+/*    max-width: 350px;*/
+/*    min-height: 330px;*/
+/*    height: 330px;*/
+/*    max-height: 330px;*/
+/*    overflow: hidden;*/
+/*}*/
+/*.card-detail{*/
+/*}*/
+/*card-author{*/
+
+/*}*/
+/*.check-watched{*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    right: 10px;*/
+/*}*/
+
