@@ -9,7 +9,7 @@ export default function Youtube(props) {
   const listId = props.listId;
   const videoId = props.videoId;
   const stage = props.stage;
-  const [isStage, setIsStage] = useState(props.stage);
+  const [isStage, setIsStage] = useState(false);
   const [isId, setIsId] = useState();
   const [isTitle, setIsTitle] = useState();
   const [isCreator, setIsCreator] = useState();
@@ -38,6 +38,17 @@ export default function Youtube(props) {
       return title;
     }
   };
+  const setIsStageValue = () => {
+    const newValue = isStage === 4;
+    if (stage === 4) {
+      setIsStage(true);
+    } else {
+      setIsStage(false);
+    }
+  };
+  useEffect(() => {
+    setIsStageValue();
+  }, []); // empty dependency array ensures it runs only once when the component mounts
 
   return (
     <div>
